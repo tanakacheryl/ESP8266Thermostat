@@ -33,42 +33,50 @@ Overall, the project demonstrates how hardware sensors, embedded control logic, 
 - <b>Breadboard & Jumper Wires</b> (21H2)
 
 <h2>Program walk-through:</h2>
-
+<h3>WiFi Initialization</h3>
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Browse available books and navigate the system.<br/><br/>
+<img src="./images/home.png" width="80%" alt="Home Page"/>
 </p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+<br/>
+
+<h3>Sensor Initialization</h3>
+<p align="center">
+View all books available in the library.<br/><br/>
+<img src="./images/catalog.png" width="80%" alt="Book Catalog"/>
+</p>
+
+<br/>
+
+<h3>Thermostat Control Logic</h3>
+<p align="center">
+Reserve books for borrowing.<br/><br/>
+<img src="./images/reserved.png" width="80%" alt="Reservation Page"/>
+</p>
+
+<br/>
+
+<h3>Web Server Endpoints</h3>
+<p align="center">
+Main entry point of the system handling routing and dashboard loading.<br/><br/>
+<img src="./images/index.png" width="80%" alt="index.php"/>
+</p>
+
+<br/>
+
+<h3>Safety Features</h3>
+<p align="center">
+Handles book reservation logic and updates the database.<br/><br/>
+<img src="./images/reserve.png" width="80%" alt="reserve.php"/>
+</p>
+
+<br/>
+
+<h3>📸 Hardware Setup</h3>
+<p align="center">
+Local development environment used to run the project (Apache + MySQL).<br/><br/>
+<img src="./images/XAMPP.png" width="80%" alt="XAMPP Server"/>
+</p>
+
+---
