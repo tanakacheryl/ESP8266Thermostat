@@ -78,5 +78,12 @@ Implements emergency button override and automatic shutdown when temperature exc
 <p align="center">
 Physical prototype showing ESP8266, BMP180 sensor, LEDs, and control components used in the system.<br/><br/>
 <img src="./images/setup.png" width="80%" alt="Hardware Setup"/>
-<img src="./images/NodeMcu.png" width="80%" alt="Hardware Setup"/>
+</p>
+
+<br/>
+
+<h3>Microcontroller (NodeMCU ESP8266)</h3>
+<p align="center">
+Acts as the main controller of the system, handling WiFi connectivity, sensor data processing, and overall thermostat logic.<br/><br/>
+<img src="./images/NodeMcu.png" width="80%" alt="NodeMcu"/>
 </p>
