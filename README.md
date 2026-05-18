@@ -87,3 +87,16 @@ Physical prototype showing ESP8266, BMP180 sensor, LEDs, and control components 
 Acts as the main controller of the system, handling WiFi connectivity, sensor data processing, and overall thermostat logic.<br/><br/>
 <img src="./images/control.png" width="80%" alt="NodeMcu"/>
 </p>
+
+<br/>
+
+<h2>How to Run</h2>
+
+<ul>
+  <li>Install required libraries in Arduino IDE (ESP8266WiFi, ESP8266WebServer, Adafruit BMP085, Wire)</li>
+  <li>Connect the NodeMCU ESP8266 to the BMP180 sensor, LEDs, and button according to the wiring diagram</li>
+  <li>Update WiFi credentials in the code (SSID and password)</li>
+  <li>Upload the code to the ESP8266 using Arduino IDE</li>
+  <li>Open Serial Monitor to find the assigned IP address</li>
+  <li>Enter the IP address in a browser to access the web dashboard</li>
+</ul>
