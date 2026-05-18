@@ -33,50 +33,50 @@ Overall, the project demonstrates how hardware sensors, embedded control logic, 
 - <b>Breadboard & Jumper Wires</b> (21H2)
 
 <h2>Program walk-through:</h2>
+
 <h3>WiFi Initialization</h3>
 <p align="center">
-Browse available books and navigate the system.<br/><br/>
-<img src="./images/home.png" width="80%" alt="Home Page"/>
+ESP8266 connects to the configured WiFi network and prints the assigned IP address to allow web access.<br/><br/>
+<img src="./images/wifi.png" width="80%" alt="WiFi Initialization"/>
 </p>
 
 <br/>
 
 <h3>Sensor Initialization</h3>
 <p align="center">
-View all books available in the library.<br/><br/>
-<img src="./images/catalog.png" width="80%" alt="Book Catalog"/>
+Initializes the BMP180 sensor using I2C communication and prepares temperature and pressure readings.<br/><br/>
+<img src="./images/sensor.png" width="80%" alt="Sensor Initialization"/>
 </p>
 
 <br/>
 
 <h3>Thermostat Control Logic</h3>
 <p align="center">
-Reserve books for borrowing.<br/><br/>
-<img src="./images/reserved.png" width="80%" alt="Reservation Page"/>
+Processes temperature readings and decides system state (ON/OFF/Safety Mode) based on configured thresholds.<br/><br/>
+<img src="./images/control.png" width="80%" alt="Thermostat Control Logic"/>
 </p>
 
 <br/>
 
 <h3>Web Server Endpoints</h3>
 <p align="center">
-Main entry point of the system handling routing and dashboard loading.<br/><br/>
-<img src="./images/index.png" width="80%" alt="index.php"/>
+Hosts a web interface and API endpoints for live monitoring and adjusting temperature thresholds.<br/><br/>
+<img src="./images/webserver.png" width="80%" alt="Web Server Endpoints"/>
 </p>
 
 <br/>
 
 <h3>Safety Features</h3>
 <p align="center">
-Handles book reservation logic and updates the database.<br/><br/>
-<img src="./images/reserve.png" width="80%" alt="reserve.php"/>
+Implements emergency button override and automatic shutdown when temperature exceeds safety limits.<br/><br/>
+<img src="./images/safety.png" width="80%" alt="Safety Features"/>
 </p>
 
 <br/>
 
 <h3>📸 Hardware Setup</h3>
 <p align="center">
-Local development environment used to run the project (Apache + MySQL).<br/><br/>
-<img src="./images/XAMPP.png" width="80%" alt="XAMPP Server"/>
+Physical prototype showing ESP8266, BMP180 sensor, LEDs, and control components used in the system.<br/><br/>
+<img src="./images/hardware.png" width="80%" alt="Hardware Setup"/>
+<img src="./images/hardware.png" width="80%" alt="Hardware Setup"/>
 </p>
-
----
