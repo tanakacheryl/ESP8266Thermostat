@@ -45,7 +45,7 @@ ESP8266 connects to the configured WiFi network and prints the assigned IP addre
 <h3>Sensor Initialization</h3>
 <p align="center">
 Initializes the BMP180 sensor using I2C communication and prepares temperature and pressure readings.<br/><br/>
-<img src="./images/sensor.png" width="80%" alt="Sensor Initialization"/>
+<img src="./images/Sensor.png" width="80%" alt="Sensor Initialization"/>
 </p>
 
 <br/>
@@ -53,7 +53,7 @@ Initializes the BMP180 sensor using I2C communication and prepares temperature a
 <h3>Thermostat Control Logic</h3>
 <p align="center">
 Processes temperature readings and decides system state (ON/OFF/Safety Mode) based on configured thresholds.<br/><br/>
-<img src="./images/control.png" width="80%" alt="Thermostat Control Logic"/>
+<img src="./images/Thermostat.png" width="80%" alt="Thermostat Control Logic"/>
 </p>
 
 <br/>
@@ -61,7 +61,7 @@ Processes temperature readings and decides system state (ON/OFF/Safety Mode) bas
 <h3>Web Server Endpoints</h3>
 <p align="center">
 Hosts a web interface and API endpoints for live monitoring and adjusting temperature thresholds.<br/><br/>
-<img src="./images/webserver.png" width="80%" alt="Web Server Endpoints"/>
+<img src="./images/web.png" width="80%" alt="Web Server Endpoints"/>
 </p>
 
 <br/>
@@ -77,6 +77,6 @@ Implements emergency button override and automatic shutdown when temperature exc
 <h3>📸 Hardware Setup</h3>
 <p align="center">
 Physical prototype showing ESP8266, BMP180 sensor, LEDs, and control components used in the system.<br/><br/>
-<img src="./images/hardware.png" width="80%" alt="Hardware Setup"/>
-<img src="./images/hardware.png" width="80%" alt="Hardware Setup"/>
+<img src="./images/setup.png" width="80%" alt="Hardware Setup"/>
+<img src="./images/NodeMcu.png" width="80%" alt="Hardware Setup"/>
 </p>
