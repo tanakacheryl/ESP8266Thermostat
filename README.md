@@ -85,5 +85,5 @@ Physical prototype showing ESP8266, BMP180 sensor, LEDs, and control components 
 <h3>Microcontroller (NodeMCU ESP8266)</h3>
 <p align="center">
 Acts as the main controller of the system, handling WiFi connectivity, sensor data processing, and overall thermostat logic.<br/><br/>
-<img src="./images/nodemcu.png" width="80%" alt="NodeMcu"/>
+<img src="./images/controller.png" width="80%" alt="NodeMcu"/>
 </p>
